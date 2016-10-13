@@ -1,0 +1,7 @@
+CREATE TABLE "Test"."RegisteredCompanies"
+(
+  "ID" bigserial NOT NULL,
+  "Random" bigint,
+  "Name" character varying,
+  CONSTRAINT "RegisteredCompanies_pkey" PRIMARY KEY ("ID")
+)
